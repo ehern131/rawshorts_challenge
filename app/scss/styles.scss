@@ -1,0 +1,12 @@
+$bg-color: lightgray;
+
+body {
+  background-color: $bg-color;
+}
+
+.bruh {
+  color: red;
+  .bruh2{
+    color: green;
+  }
+}
