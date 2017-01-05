@@ -58,6 +58,6 @@ $('#drag, #drag2, #drag3').droppable({
 
 // DRAG AND DROP SNAP GRID
   $( function() {
-      $( "#drag, #drag2, #drag3" ).draggable({ grid: [ 50, 50 ] });
+      $( "#drag, #drag2, #drag3" ).draggable({ grid: [ 25, 25 ] });
     } );
     // DRAG AND DROP SNAP GRID END
