@@ -20,22 +20,49 @@ body {
   margin: 0 auto;
   position: relative;
   display: flex;
-  margin-top: 8%;
   .columnA {
     background-color: white;
     width: 20%;
-    flex-direction: row;
-    margin-right: 3%;
+    margin-right: 1%;
+    border-right: solid gray 1px;
+  }
+  .columnHead {
+    color: lightgray;
+    margin-left: 26%;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  .columnAImg img {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-height: 145px;
+    margin-left: 30px;
+    margin-top: 25px;
+    max-width: 100%;
   }
   .stage {
     background-color: white;
     width: 60%;
-    flex-direction: row;
+    height: 60vh;
+    margin-top: 16vh;
+    position: relative;
+    border: solid gray 1px;
   }
   .columnB {
     background-color: white;
     width: 20%;
-    flex-direction: row;
-    margin-left: 3%;
+    margin-left: 1%;
+    height: 92vh;
+    border-left: solid gray 1px;
+  }
+  .columnBImg img {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-height: 145px;
+    margin-left: 30px;
+    margin-top: 25px;
+    max-width: 100%;
   }
 }
