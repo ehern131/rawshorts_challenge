@@ -1,20 +1,23 @@
 body {
-  background-color: lightgray; }
+  background-color: #f1f2f7; }
 
 .nav {
   width: 100vw;
   background-color: #2e353e;
-  height: 8vh; }
+  height: auto; }
   .nav .logo {
-    width: 150px;
-    margin-top: 15px;
-    margin-left: 15px; }
+    text-align: left; }
+  .nav .logoImg {
+    width: 10%;
+    padding: 10px 0 10px 0;
+    margin-left: 1%; }
 
 .columnContainer {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  display: flex; }
+  display: flex;
+  height: 92vh; }
   .columnContainer .columnA {
     background-color: white;
     width: 20%;
@@ -22,22 +25,25 @@ body {
     border-right: solid gray 1px; }
   .columnContainer .columnHead {
     color: lightgray;
-    margin-left: 26%;
+    margin-left: 30%;
     margin-top: 30px;
     font-size: 25px; }
   .columnContainer .columnAImg img {
     width: 80%;
     margin: 0 auto;
     position: relative;
-    max-height: 145px;
+    max-height: 170px;
     margin-left: 30px;
     margin-top: 25px;
-    max-width: 100%; }
+    max-width: 100%;
+    height: auto; }
+    .columnContainer .columnAImg img:hover {
+      opacity: 0.5; }
   .columnContainer .stage {
     background-color: white;
     width: 60%;
-    height: 60vh;
-    margin-top: 16vh;
+    height: 475px;
+    margin-top: 7%;
     position: relative;
     border: solid gray 1px; }
   .columnContainer .columnB {
@@ -50,7 +56,10 @@ body {
     width: 80%;
     margin: 0 auto;
     position: relative;
-    max-height: 145px;
+    max-height: 170px;
     margin-left: 30px;
     margin-top: 25px;
-    max-width: 100%; }
+    max-width: 100%;
+    height: auto; }
+    .columnContainer .columnBImg img:hover {
+      opacity: 0.5; }
