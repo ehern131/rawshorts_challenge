@@ -23,7 +23,7 @@ body {
     background-color: white;
     width: 20%;
     margin-right: 1%;
-    height: 93vh;
+    height: 92vh;
     border-right: solid gray 1px;
     border-bottom: solid gray 1px; }
   .columnContainer .columnHead {
@@ -46,8 +46,8 @@ body {
     background-color: white;
     width: 60%;
     height: auto;
-    max-height: 62%;
-    margin-top: 8%;
+    max-height: 70%;
+    margin-top: 6.7%;
     position: relative;
     border: solid gray 1px;
     margin-bottom: 7%; }
@@ -55,7 +55,7 @@ body {
     background-color: white;
     width: 20%;
     margin-left: 1%;
-    height: 93vh;
+    height: 92vh;
     border-left: solid gray 1px;
     border-bottom: solid gray 1px; }
   .columnContainer .columnBImg img {
@@ -69,3 +69,75 @@ body {
     height: auto; }
     .columnContainer .columnBImg img:hover {
       opacity: 0.5; }
+
+@media (max-width: 1300px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 22px !important; }
+  .stage {
+    margin-top: 94px !important;
+    height: 440px !important; } }
+
+@media (max-width: 1200px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 22px !important; }
+  .stage {
+    margin-top: 94px !important;
+    height: 415px !important; } }
+
+@media (max-width: 1100px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 21px !important; }
+  .stage {
+    margin-top: 92px !important;
+    height: 375px !important; } }
+
+@media (max-width: 1000px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 20px !important; }
+  .stage {
+    margin-top: 88px !important;
+    height: 340px !important; } }
+
+@media (max-width: 900px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 19px !important; }
+  .stage {
+    margin-top: 86px !important;
+    height: 315px !important; } }
+
+@media (max-width: 800px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 18px !important; }
+  .stage {
+    margin-top: 86px !important;
+    height: 285px !important; } }
+
+@media (max-width: 700px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 17px !important; }
+  .stage {
+    margin-top: 84px !important;
+    height: 250px !important; } }
+
+@media (max-width: 600px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 16px !important; }
+  .stage {
+    margin-top: 84px !important;
+    height: 235px !important; } }
+
+@media (max-width: 500px) {
+  .columnHead {
+    margin-top: 28px !important;
+    font-size: 15px !important; }
+  .stage {
+    margin-top: 83px !important;
+    height: 210px !important; } }
