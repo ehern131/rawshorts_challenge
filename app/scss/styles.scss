@@ -3,3 +3,39 @@ $bg-color: lightgray;
 body {
   background-color: $bg-color;
 }
+
+.nav {
+  width: 100vw;
+  background-color: rgb(46,53,62);
+  height: 8vh;
+  .logo {
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+}
+
+.columnContainer {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  margin-top: 8%;
+  .columnA {
+    background-color: white;
+    width: 20%;
+    flex-direction: row;
+    margin-right: 3%;
+  }
+  .stage {
+    background-color: white;
+    width: 60%;
+    flex-direction: row;
+  }
+  .columnB {
+    background-color: white;
+    width: 20%;
+    flex-direction: row;
+    margin-left: 3%;
+  }
+}
