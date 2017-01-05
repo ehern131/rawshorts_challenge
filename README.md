@@ -9,6 +9,3 @@ Clone the repository on github and simply run "gulp" in your terminal. Thanks to
 
 Technologies used:
 HTML/SASS/JQuery/Node.js/Gulp.js/Express were used to make this app.
-
-Pending functionality:
- Mobile responsive design could be improved
