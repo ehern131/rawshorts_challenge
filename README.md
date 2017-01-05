@@ -8,7 +8,7 @@ How to install/run the project:
 Clone the repository on github and simply run "gulp" in your terminal. Thanks to Gulp and JS your terminal will automatically open your browser and redirect to localhost.
 
 Technologies used:
-HTML/SASS/JQuery/Node.js/Gulp.js were used to make this app.
+HTML/SASS/JQuery/Node.js/Gulp.js/Express were used to make this app.
 
 Pending functionality:
  Mobile responsive design could be improved
